@@ -1,0 +1,123 @@
+
+#docListContainer
+{
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+    border: 1px solid black;
+    box-shadow: 5px 5px 5px #aaaaaa;
+    width: 1100px;
+    height: 870px;
+    border-radius: 10px;
+}
+
+#docListCityText,#docListCitySelect,#docListExpText,#docListExpSelect
+{
+    height: 40px;
+    width: 200px;
+    margin-left: 18px;
+    margin-top: 10px;
+    padding-left: 10px;
+    border-radius: 5px;
+    border: 1px solid grey;
+    box-shadow: 5px 5px 5px #aaaaaa;
+}
+
+#docListDoctorList
+{
+    height: 750px;
+    width: 400px;
+    border: 1px solid black;
+    margin-top: 2px;
+    margin-left: 20px;
+    box-shadow: 5px 5px 5px #aaaaaa;
+    overflow-y: scroll;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.docListUnitDoc
+{
+   height: 110px; 
+   width: 360px;
+   margin-left: 10px;
+   margin-top: 10px;
+   border-radius: 10px;
+   padding: 10px;
+   box-shadow: 5px 5px 5px #aaaaaa;
+   border: 1px solid grey;
+}
+
+.docListDocId,.docListDocName,.docListDocRate,.docListGoDoc
+{
+    position: relative;
+    float: left;
+    margin-left: 10px;
+}
+
+.docListDocName
+{
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   font-size: 18px;
+}
+
+.docListGoDoc
+{
+    float: right;
+    height: 30px;
+    width: 80px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    border: 1px solid black;   
+    box-shadow: 5px 5px 5px #aaaaaa;
+    font-size: 12px;
+    transition: 0.2s;
+}
+
+#docListSearchBtn,#docListSortByRate,#docListSortByName
+{
+    height: 40px;
+    width: 120px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    border: 1px solid black;   
+    box-shadow: 5px 5px 5px #aaaaaa;
+    font-size: 12px;
+    transition: 0.2s;
+    margin-left: 10px;
+
+}
+
+#docListSearchBtn
+{
+    width: 180px;
+}
+
+.docListGoDoc:hover,#docListSearchBtn:hover,#docListSortByRate:hover,#docListSortByName:hover
+{
+    background-color: white;
+    color: black;
+}
+
+#docListDocPanel
+{
+    position: relative;
+    z-index: 10;
+    top: -750px;
+    left: 420px;
+    height: 400px;
+    width: 400px;
+    margin-left: 20px;
+    /*border: 1px solid black;
+    box-shadow: 5px 5px 5px #aaaaaa;*/
+}
+
+#docListSortByRate,#docListSortByName
+{
+   position: sticky;
+   top: 0;
+   opacity: 0.2;
+   width: 174px; 
+}

@@ -1,0 +1,33 @@
+#gateContainer
+{
+    height: 100px;
+    width: 400px;
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid grey;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #aaaaaa;
+}
+
+#passIn
+{
+   height: 40px;
+   width: 250px;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   box-shadow: 3px 3px 5px lightgrey;
+   border: 1px solid grey;
+   border-radius: 10px;
+   padding-left: 10px;
+}
+
+#login
+{
+  margin-left: 10px;
+  height: 40px;
+  color: white;
+  background-color: black;
+  border: 1px solid black;
+  border-radius: 10px;
+  width: 85px;
+
+}

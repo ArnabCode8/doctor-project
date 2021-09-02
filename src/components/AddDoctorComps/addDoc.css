@@ -1,0 +1,117 @@
+
+#addDocContainer
+{
+   height: 830px;
+   width: 450px;
+   border: 1px solid black;
+   margin-left: 20px;
+   margin-top: 20px;
+}
+
+h3
+{
+   text-align: center;
+}
+
+label
+{
+   margin-left: 20px;
+   margin-top: 10px;
+}
+
+#expList
+{
+   border: 1px solid grey;
+   height: 300px;
+   width: 400px;
+   margin-left: 20px;
+   margin-top: 10px;
+   overflow-y: auto;
+}
+
+#submitAll
+{
+   background-color: grey;
+   color: white;
+   border-radius: 10px;
+   height: 40px;
+   width: 200px;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-weight: bold;
+   margin-top: 5px;
+   margin-left: 120px;
+   transition: 0.2s;
+}
+
+#submitAll:hover
+{
+   background-color: black;
+   color: white;
+   width: 300px;
+   margin-left: 80px;
+}
+
+#expSearch
+{
+   height: 35px;
+   width: 250px;
+   margin-left: 90px;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   font-weight: bold;
+   padding-left: 10px;
+}
+
+#nameIn,#addressIn,#cityIn,#contactIn
+{
+   height: 40px;
+   width: 400px;
+   margin-left: 20px;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-size: 20px;
+   padding-left: 10px;
+}
+
+#nameIn:focus,#addressIn:focus,#cityIn:focus
+{
+   box-shadow: 5px 5px 5px #aaaaaa;
+}
+
+.expOp
+{
+   height: 50px;
+   width: 350px;
+   padding: 5px;
+   margin-left: 10px;
+   margin-top: 10px;
+   border: 1px solid grey;
+   box-shadow: 2px 2px 5px #aaaaaa;
+}
+
+.expId,.expName
+{
+   float: left;
+   margin-left: 10px;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   font-size: medium;
+   font-weight: bold;
+}
+
+.expAdd
+{
+   float: right;
+   margin-right: 10px;
+   height: 30px;
+   width: 100px;
+   background-color: lightgray;
+   border: 1px solid grey;
+   border-radius: 10px;
+   font-weight: bold;
+   box-shadow: 5px 5px 5px #aaaaaa;
+}
+
+.expAdd:hover
+{
+   box-shadow: 5px 5px 5px lightseagreen;
+   background-color: black;
+   color: white;
+}

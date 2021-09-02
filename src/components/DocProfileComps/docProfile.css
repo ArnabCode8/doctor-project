@@ -1,0 +1,45 @@
+#docProfile
+{
+    height: 250px;
+    width: 300px;
+    border: 1px solid grey;
+    box-shadow: 5px 5px 5px #aaaaaa;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    overflow-y: auto;
+}
+
+#docProfileDocName,#docProfileDocAddress,#docProfileDocExps
+{
+    word-wrap: break-word;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    padding: 10px;
+    border: 1px solid grey;
+    box-shadow: 5px 5px 5px #aaaaaa;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+#docProfileDocName
+{
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    position: sticky;
+    top: 0;
+}
+
+#docProfileContainer
+{
+    height: 280px;
+    width: 600px;
+    padding: 10px;
+    margin-left: 20px;
+    border: 1px solid grey;
+}
+
+
+
+

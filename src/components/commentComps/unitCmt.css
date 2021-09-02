@@ -1,0 +1,33 @@
+.unitCmt
+{
+   width: 500px;
+   padding: 5px;
+   border: 1px solid black;
+   border-radius: 10px;
+   box-shadow: 5px 5px 5px #aaaaaa;
+   margin-top: 10px;
+   margin-left: 20px;
+}
+
+p
+{
+   padding-left: 10px;
+}
+
+.cmtInfo
+{
+    word-wrap: break-word;
+    background-color: lightgrey;
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px #aaaaaa;
+}
+
+.cmtText
+{
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   word-wrap: break-word;
+   font-size: 20px;
+}
+
+
+
